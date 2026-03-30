@@ -13,4 +13,4 @@ def run(selected_language):
     tabs_path = ['00_intro.md']
 
     # Show full content
-    load_markdown_file_combined(tabs_path[0], folder, selected_language, {})
+    load_markdown_file_combined(tabs_path[0], folder, selected_language)

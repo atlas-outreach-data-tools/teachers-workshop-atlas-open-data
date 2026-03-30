@@ -140,13 +140,8 @@ else:
             # Load the actual analyses module after completing the tutorial
             module = importlib.import_module("03_analyses")
             module.run(selected_language)
-        
 
     elif selected_tab == tabs[4]:
-        module = importlib.import_module("04_extrapython")
-        module.run(selected_language)
-
-    elif selected_tab == tabs[5]:
         module = importlib.import_module("05_class_toolkit")
         module.run(selected_language)
 

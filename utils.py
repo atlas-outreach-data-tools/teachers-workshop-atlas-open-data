@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import os
 import re
 import streamlit as st
-from code_editor import code_editor
 import io
 import sys
 import json
@@ -59,58 +58,6 @@ def get_first_level_headers(language, folder, filenames):
             print(f"File not found: {base_path}")
     return headers
 
-def run_code_editor(default_code, global_namespace, height=[2,30], key=None):
-    """
-    Launch a Streamlit code editor, execute submitted Python code, and display output.
-
-    Loads custom buttons from a JSON file and opens a code editor with the given default code.
-    When the user submits code, it is executed in the provided global namespace. Captured
-    standard output and any generated matplotlib figures are then displayed.
-
-    Parameters:
-        default_code (str): The initial code shown in the editor.
-        global_namespace (dict): The namespace in which the submitted code is executed.
-        height (list, optional): A two-element list defining the editor's height.
-        key (str, optional): A unique key for the editor widget.
-
-    Returns:
-        None
-    """
-    with open('custom/buttons_code_cells.json') as json_button_file:
-        custom_buttons = json.load(json_button_file)
-
-    response_dict = code_editor(
-        default_code,
-        lang="python",
-        props={"style": {"pointerEvents": "none"}},
-        height=height,
-        theme="monokai",
-        buttons=custom_buttons,
-        key=key  # Add a unique key here
-    )
-
-    if response_dict['type'] == "submit" and len(response_dict['text']) != 0:
-        code = response_dict['text']
-        old_stdout = sys.stdout
-        sys.stdout = buffer = io.StringIO()
-
-        try:
-            exec(code, global_namespace)
-        except IndentationError as e:
-            st.error(f"Indentation Error: {e}")
-        except Exception as e:
-            st.error(f"Error: {e}")
-
-        output = buffer.getvalue()
-        if output:
-            st.code(output, language="python")
-
-        sys.stdout = old_stdout
-
-        if plt.get_fignums():
-            st.pyplot(plt.gcf())
-            plt.close('all')
-
 def load_markdown_preview(filename, folder, language, lines=3):
     """
     Load a markdown file and return a preview of its first few lines.
@@ -133,7 +80,7 @@ def load_markdown_preview(filename, folder, language, lines=3):
     preview = "".join(content[:lines]).strip()
     return preview
 
-def load_markdown_file_combined(filename, folder, language, global_namespace=None, **placeholders):
+def load_markdown_file_combined(filename, folder, language, **placeholders):
     """
     Load markdown content from a file and process dynamic content, images, code blocks,
     alerts, and dataframe blocks based on the file's content.
@@ -142,7 +89,6 @@ def load_markdown_file_combined(filename, folder, language, global_namespace=Non
         - filename: The markdown file name.
         - folder: The folder in which the file is stored.
         - language: The language sub-folder.
-        - global_namespace: Optional. If provided, code blocks will be executed via run_code_editor.
         - placeholders: Optional keyword arguments for dynamic placeholder replacement.
     """
     base_path = f"docs/{language.lower()}/{folder}/{filename}"
@@ -160,8 +106,6 @@ def load_markdown_file_combined(filename, folder, language, global_namespace=Non
     
     # Initialize buffers and flags
     markdown_buffer = []
-    in_code_block = False
-    code_buffer = []
     in_alert_block = False
     alert_type = None
     alert_buffer = []
@@ -179,29 +123,6 @@ def load_markdown_file_combined(filename, folder, language, global_namespace=Non
     # Process the file line by line
     for line in content.splitlines():
         line_number += 1
-
-        # --- Code Block Handling ---
-        if line.startswith("```"):
-            if not in_code_block:
-                in_code_block = True
-                # Render any pending markdown before starting the code block
-                if markdown_buffer:
-                    st.markdown('\n'.join(markdown_buffer), unsafe_allow_html=True)
-                    markdown_buffer = []
-            else:
-                in_code_block = False
-                code = '\n'.join(code_buffer)
-                if global_namespace is not None:
-                    run_code_editor(code,
-                                    global_namespace,
-                                    key=f"{folder}::{filename}::line_{line_number}"
-                                )
-                code_buffer = []
-            continue  # Skip further processing for this line
-
-        if in_code_block:
-            code_buffer.append(line)
-            continue
 
         # --- Dataframe Block Handling ---
         if in_dataframe_block:

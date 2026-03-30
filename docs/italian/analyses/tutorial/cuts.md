@@ -2,7 +2,7 @@
 Nell'analisi dei dati, la **selezione degli eventi** si riferisce al processo di applicazione di filtri per identificare specifiche righe di dati che soddisfano determinati criteri. La selezione degli eventi ci consente di concentrarci su eventi significativi escludendo dati irrilevanti o rumorosi, spesso collettivamente chiamati "background".
 
 > [!NOTE]
-**##### Perché la Selezione degli Eventi è Importante?**
+##### Perché la Selezione degli Eventi è Importante?
 Immagina di essere ad un concerto affollato, cercando di trovare un amico nella folla. Se inizi a guardare casualmente ogni persona, ci metteresti un'eternità e probabilmente perderesti di vista il tuo amico. Invece, potresti applicare **filtri** per restringere la tua ricerca:
 - Cerca qualcuno che indossa una maglia rossa (come quella che il tuo amico ha detto che avrebbe indossato).
 - Concentrati sulla sezione della folla vicino al palco (dove il tuo amico ha detto che sarebbe stato).
