@@ -1,19 +1,19 @@
-# Explore the Z and Higgs Bosons Through Data from the ATLAS Experiment!
-Dive into experimental data with this interactive app! By applying your own selection criteria to filter events, you'll uncover the signatures of the Z and Higgs bosons in the resulting plots. Experience the thrill of discovery just like a particle physicist!
+# Esplora i bosoni Z e Higgs attraverso i dati dell’esperimento ATLAS!
+Immergiti nei dati sperimentali con questa app interattiva! Applicando i tuoi criteri di selezione per filtrare gli eventi, scoprirai le firme dei bosoni Z e Higgs nei grafici risultanti. Vivi l’emozione della scoperta proprio come un fisico delle particelle!
 
-### Objectives
-In these analyses, you will:
+### Obiettivi
+In queste analisi, farai quanto segue:
 
-- Understand the concept of invariant mass: A key quantity in particle physics, invariant mass is calculated from the momenta and energies of detected particles and reveals information about their parent particles.
-- Identify the Z boson: By examining the invariant mass of particle pairs, you'll reveal a sharp peak at the Z boson's mass.
-- Uncover the Higgs boson decaying to ZZ: You'll produce a plot of the invariant mass of four leptons, getting the signature of the Higgs boson in the Higgs to ZZ channel.
+- Comprendere il concetto di massa invariante: una quantità chiave nella fisica delle particelle, la massa invariante viene calcolata a partire dai momenti e dalle energie delle particelle rilevate e rivela informazioni sulle particelle madri.
+- Identificare il bosone Z: esaminando la massa invariante di coppie di particelle, vedrai emergere un picco netto alla massa del bosone Z.
+- Scoprire il bosone di Higgs che decade in ZZ: produrrai un grafico della massa invariante di quattro leptoni, ottenendo la firma del bosone di Higgs nel canale Higgs in ZZ.
 
-Below are the plots we’re aiming for in this analysis:
+Qui sotto ci sono i grafici a cui puntiamo in questa analisi:
 
-![Invariant mass of the Z boson.](images/Z-boson-invariant-mass-distribution_{theme}.png)
+![Massa invariante del bosone Z.](images/Z-boson-invariant-mass-distribution_{theme}.png)
 
-![Invariant mass of the Higgs boson](images/Higss_invariant_mass_distribution_{theme}.png)
+![Massa invariante del bosone di Higgs](images/Higss_invariant_mass_distribution_{theme}.png)
 
-These example plots are not just toy examples; they represent results from real analyses conducted at the ATLAS experiment, using data collected from high-energy particle collisions. As you progress, we’ll explain how these plots are created and what they reveal about these fundamental particles.
+Questi grafici di esempio non sono semplici esempi illustrativi; rappresentano risultati di analisi reali condotte nell’esperimento ATLAS, utilizzando dati raccolti da collisioni di particelle ad alta energia. Man mano che andrai avanti, spiegheremo come questi grafici vengono creati e cosa rivelano su queste particelle fondamentali.
 
 ---

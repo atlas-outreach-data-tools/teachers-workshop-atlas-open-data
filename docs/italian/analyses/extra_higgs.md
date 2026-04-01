@@ -1,37 +1,37 @@
-### You found the Higgs!
+### Hai trovato l’Higgs!
 
-Congratulations! Your analysis has led to the identification of the Higgs boson, the particle responsible for giving mass to other particles. This discovery represents one of the most important milestones in modern particle physics.
+Congratulazioni! La tua analisi ha portato all’identificazione del bosone di Higgs, la particella responsabile di dare massa alle altre particelle. Questa scoperta rappresenta una delle tappe più importanti della fisica delle particelle moderna.
 
-To help you visualize what you’ve found, let’s take a closer look at some event displays. These displays show real examples of events where the Higgs boson decayed into four leptons, highlighting the tracks and energy deposits recorded by the ATLAS detector. Each event demonstrates a different decay channel and the meticulous reconstruction of the particles involved.
+Per aiutarti a visualizzare ciò che hai trovato, diamo un’occhiata più da vicino ad alcune visualizzazioni di eventi. Queste visualizzazioni mostrano esempi reali di eventi in cui il bosone di Higgs è decaduto in quattro leptoni, evidenziando le tracce e i depositi di energia registrati dal rivelatore ATLAS. Ogni evento mostra un diverso canale di decadimento e la meticolosa ricostruzione delle particelle coinvolte.
 
-#### Event Displays
+#### Visualizzazioni degli eventi
 
-- **H → 4e event**
+- **Evento H → 4e**
 
-    This event features a Higgs boson decaying into four electrons, with an invariant mass of approximately 124.5 GeV. The tracks and energy clusters of the electron pairs are colored red and blue. The detailed views show the origin of the electrons from the same primary vertex, as well as the transverse energy measured in the calorimeters.
+    Questo evento mostra un bosone di Higgs che decade in quattro elettroni, con una massa invariante di circa 124.5 GeV. Le tracce e i cluster di energia delle coppie di elettroni sono colorati in rosso e blu. Le viste dettagliate mostrano l’origine degli elettroni dallo stesso vertice primario, così come l’energia trasversa misurata nei calorimetri.
 
 
     ![](https://cds.cern.ch/record/1459493/files/run203602_evt82614360_VP1Base.png?subformat=icon-640)
 
 
-- **H → 4μ event**
+- **Evento H → 4μ**
 
-    In this event, the Higgs boson decays into four muons, with an invariant mass of around 124.1 GeV. The red tracks represent the muon trajectories, showcasing their clear identification and reconstruction in the detector.
+    In questo evento, il bosone di Higgs decade in quattro muoni, con una massa invariante di circa 124.1 GeV. Le tracce rosse rappresentano le traiettorie dei muoni, mostrando la loro chiara identificazione e ricostruzione nel rivelatore.
 
 
     ![](https://cds.cern.ch/record/1459498/files/run204769_evt71902630_MSonly_hres.png?subformat=icon-640)
 
-- **H → 2e2μ event**
+- **Evento H → 2e2μ**
 
-    This event displays a mixed decay of the Higgs boson into two electrons and two muons, with an invariant mass of approximately 122.6 GeV. The muon tracks are red, and the electron tracks and clusters in the calorimeters are green. Smaller close-up views are included to focus on specific details, such as the region where the leptons originate, confirming that all leptons came from the same interaction point in the detector.
+    Questo evento mostra un decadimento misto del bosone di Higgs in due elettroni e due muoni, con una massa invariante di circa 122.6 GeV. Le tracce dei muoni sono rosse, mentre le tracce degli elettroni e i cluster nei calorimetri sono verdi. Sono incluse viste ravvicinate più piccole per mettere in evidenza dettagli specifici, come la regione da cui hanno origine i leptoni, confermando che tutti i leptoni provengono dallo stesso punto di interazione nel rivelatore.
 
 
     ![](https://cds.cern.ch/record/1459502/files/run205113_evt12611816_VP1Base.png?subformat=icon-640)
 
-#### Why Luminosity Matters
+#### Perché la luminosità è importante
 
-The amount of data analyzed—referred to as luminosity—directly impacts how clearly we can see the Higgs boson in the invariant mass distribution. To demonstrate this, here is a GIF showing how the invariant mass plot evolves as more data is added. Notice how the Higgs peak becomes sharper and more distinct with increasing luminosity.
+La quantità di dati analizzati, chiamata luminosità, influisce direttamente su quanto chiaramente possiamo vedere il bosone di Higgs nella distribuzione della massa invariante. Per dimostrarlo, ecco una GIF che mostra come il grafico della massa invariante evolve man mano che vengono aggiunti più dati. Nota come il picco dell’Higgs diventa più netto e più distinto con l’aumentare della luminosità.
 
 ![](https://twiki.cern.ch/twiki/pub/AtlasPublic/HiggsPublicResults/4l-FixedScale-NoMuProf2.gif)
 
-This illustrates why you selected luminosity at the start of your analysis: more data improves the signal's visibility, making it easier to identify rare processes like Higgs boson decays
+Questo illustra perché hai selezionato la luminosità all’inizio della tua analisi: più dati migliorano la visibilità del segnale, rendendo più facile identificare processi rari come i decadimenti del bosone di Higgs

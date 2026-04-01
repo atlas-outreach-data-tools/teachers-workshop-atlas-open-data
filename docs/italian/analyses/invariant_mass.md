@@ -1,13 +1,13 @@
-## Unveiling Particles with Invariant Mass
-The **invariant mass** is a fundamental concept in particle physics. It is a quantity derived from the energies and momenta of particles and is particularly useful because it remains the same regardless of the reference frame of the particles involved. When two or more particles are detected, their invariant mass can reveal information about the original particle that decayed to produce them.
+## Svelare le particelle con la massa invariante
+La **massa invariante** è un concetto fondamentale nella fisica delle particelle. È una quantità derivata dalle energie e dai momenti delle particelle ed è particolarmente utile perché rimane la stessa indipendentemente dal sistema di riferimento delle particelle coinvolte. Quando vengono rilevate due o più particelle, la loro massa invariante può rivelare informazioni sulla particella originale che è decaduta per produrle.
 
-For two particles, the invariant mass $M$ is calculated using the following equation:
+Per due particelle, la massa invariante $M$ è calcolata usando la seguente equazione:
 $$$
 M^2 = (E_1+E_2)^2 - (\vec{p_1}+\vec{p_2})^2
 $$$
 
-Here $E_1$ and $E_2$ are the energies of the two particles, $\vec{p_1}$ and $\vec{p_2}$ are their momentum vectors, and $M$ is the invariant mass. This invariant mass corresponds to the mass of the parent particle that decayed to produce these two particles.
+Qui $E_1$ ed $E_2$ sono le energie delle due particelle, $\vec{p_1}$ e $\vec{p_2}$ sono i loro vettori quantità di moto, e $M$ è la massa invariante. Questa massa invariante corrisponde alla massa della particella madre che è decaduta per produrre queste due particelle.
 
-You'll use invariant mass to identify: 
-- The Z boson, by looking at the mass of particle pairs (like electron-positron or muon-antimuon pairs), which will create a distinct peak around 91 GeV if the event selection is done correctly.
-- The Higgs boson, by analyzing the invariant mass of four leptons, producing a broader peak that you will discover the value of.
+Userai la massa invariante per identificare: 
+- Il bosone Z, osservando la massa di coppie di particelle (come coppie elettrone-positrone o muone-antimuone), che creeranno un picco distinto attorno a 91 GeV se la selezione degli eventi viene fatta correttamente.
+- Il bosone di Higgs, analizzando la massa invariante di quattro leptoni, producendo un picco più ampio di cui scoprirai il valore.

@@ -1,2 +1,2 @@
-### Discussion
-You reached the end of the analysis, once you are happy with the result wait for the discussion or reset the analysis to try a new one.
+### Discussione
+Hai raggiunto la fine dell’analisi, una volta che sei soddisfatto del risultato aspetta la discussione oppure reimposta l’analisi per provarne una nuova.

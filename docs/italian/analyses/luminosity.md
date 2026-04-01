@@ -1,8 +1,8 @@
-## How much data do you want to use?
-Begin your analysis by choosing how much data you'd like to work with. Use the slider below to select the integrated luminosity, which is a measure of how much data the ATLAS detector has collected during its operations. In this case, we are using data recorded in 2015 and 2016.
+## Quanti dati vuoi usare?
+Inizia la tua analisi scegliendo quanti dati desideri usare. Usa il cursore qui sotto per selezionare la luminosità integrata, che è una misura della quantità di dati raccolti dal rivelatore ATLAS durante le sue operazioni. In questo caso, stiamo usando dati registrati nel 2015 e nel 2016.
 
-In particle physics, **luminosity** refers to the number of particle collisions occurring in the detector over time. The **integrated luminosity** is the total number of collisions recorded, expressed in units called inverse femtobarns (fb⁻¹). For reference, 1 fb⁻¹ corresponds to roughly 100 trillion particle collisions.
+Nella fisica delle particelle, la **luminosità** si riferisce al numero di collisioni tra particelle che avvengono nel rivelatore nel tempo. La **luminosità integrata** è il numero totale di collisioni registrate, espresso in unità chiamate femtobarn inversi (fb⁻¹). Come riferimento, 1 fb⁻¹ corrisponde a circa 100 trilioni di collisioni tra particelle.
 
-The more data (or collisions) you analyze, the better your chances of observing rare events. Rare processes, like the decay of a Higgs boson, occur very infrequently compared to more common events. By analyzing more collisions, you effectively create more opportunities for these rare events to occur and be captured in the data.
+Più dati (o collisioni) analizzi, maggiori sono le probabilità di osservare eventi rari. Processi rari, come il decadimento di un bosone di Higgs, avvengono molto meno frequentemente rispetto a eventi più comuni. Analizzando più collisioni, crei di fatto più opportunità affinché questi eventi rari si verifichino e vengano catturati nei dati.
 
-Use the slider below to choose how much integrated luminosity to analyze. Keep in mind, while more data increases your chances of finding rare particles, it may also take longer to process, because the computer needs to work through a larger number of recorded events to find the ones that match your selection.
+Usa il cursore qui sotto per scegliere quanta luminosità integrata analizzare. Tieni presente che, anche se più dati aumentano le tue probabilità di trovare particelle rare, l’elaborazione potrebbe richiedere più tempo, perché il computer deve esaminare un numero maggiore di eventi registrati per trovare quelli che corrispondono alla tua selezione.
