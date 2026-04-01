@@ -1,14 +1,14 @@
-## Cuts on Leptons p$_T$
-To create a clearer and more visible plot of the Higgs boson, we focus on the transverse momentum (p$_T$) of leptons. This quantity measures how much momentum a particle has perpendicular to the beamline. Each lepton in an event is ranked by p$_T$, with the leading lepton having the highest value, followed by the sub-leading, and so on.
+## Tagli sul p$_T$ dei leptoni
+Per creare un grafico del bosone di Higgs più chiaro e visibile, ci concentriamo sul momento trasverso (p$_T$) dei leptoni. Questa quantità misura quanta quantità di moto una particella possiede perpendicolarmente alla linea del fascio. Ogni leptone in un evento viene ordinato in base al p$_T$, con il leptone leading che ha il valore più alto, seguito dal sub-leading, e così via.
 
-By examining the p$_T$ distributions for the leading, sub-leading, and third leptons, we can refine our selection to reduce background events and highlight the Higgs signal. The goal is to improve the quality of the final invariant mass plot, making the Higgs peak more distinct and easier to identify. Through this process, we want to enhance the visibility of the Higgs boson’s signature againts other data.
+Esaminando le distribuzioni di p$_T$ per il leptone leading, sub-leading e il terzo leptone, possiamo raffinare la nostra selezione per ridurre gli eventi di fondo ed evidenziare il segnale dell’Higgs. L’obiettivo è migliorare la qualità del grafico finale della massa invariante, rendendo il picco dell’Higgs più distinto e più facile da identificare. Attraverso questo processo, vogliamo aumentare la visibilità della firma del bosone di Higgs rispetto agli altri dati.
 
-The plots below show the p$_T$ distributions for the leading, sub-leading, and third leptons in both simulated signal (events containing the Higgs boson) and background (events not related to the Higgs but similar). To identify where to place p$_T$ cuts, look for regions where the signal (Higgs events) stands out compared to the background.
+I grafici qui sotto mostrano le distribuzioni di p$_T$ per il leptone leading, sub-leading e il terzo leptone sia nel segnale simulato (eventi contenenti il bosone di Higgs) sia nel fondo (eventi non legati all’Higgs ma simili). Per identificare dove posizionare i tagli sul p$_T$, cerca le regioni in cui il segnale (eventi di Higgs) risalta rispetto al fondo.
 
-In particular:
+In particolare:
 
-- Notice the shape and range of the p$_T$ distributions for the Higgs signal. These show where Higgs events are most likely to appear.
-- Compare these to the background distributions. Areas with significant overlap between signal and background are less helpful for distinguishing Higgs events, while areas with less background are more promising.
-- Focus on the low-p$_T$ regions where the background dominates, as this is where cuts can effectively reduce noise without losing too many signal events.
+- Nota la forma e l’intervallo delle distribuzioni di p$_T$ per il segnale dell’Higgs. Queste mostrano dove è più probabile che compaiano gli eventi di Higgs.
+- Confrontale con le distribuzioni del fondo. Le aree con una sovrapposizione significativa tra segnale e fondo sono meno utili per distinguere gli eventi di Higgs, mentre le aree con meno fondo sono più promettenti.
+- Concentrati sulle regioni a basso p$_T$ dove il fondo domina, poiché è qui che i tagli possono ridurre efficacemente il rumore senza perdere troppi eventi di segnale.
 
-By analyzing these distributions, you can decide on appropriate p$_T$ thresholds for each lepton to maximize the Higgs signal's visibility.
+Analizzando queste distribuzioni, puoi decidere soglie di p$_T$ appropriate per ciascun leptone al fine di massimizzare la visibilità del segnale dell’Higgs.

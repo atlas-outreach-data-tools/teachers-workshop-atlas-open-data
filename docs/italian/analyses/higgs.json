@@ -1,21 +1,21 @@
 {
     "intro": {
-        "title": "How do we know we found the Higgs?",
-        "docs": "To determine if we've observed the Higgs boson, we compare our real data with simulations of known background processes and simulated signals. This approach helps us see if a peak stands out in our data where we expect the Higgs boson to appear."
+        "title": "Come facciamo a sapere di aver trovato l’Higgs?",
+        "docs": "Per determinare se abbiamo osservato il bosone di Higgs, confrontiamo i nostri dati reali con simulazioni dei processi di fondo noti e con segnali simulati. Questo approccio ci aiuta a vedere se nei nostri dati emerge un picco nel punto in cui ci aspettiamo che appaia il bosone di Higgs."
     },
     "data_only": {
-        "title": "Step 1: Observing the Data",
-        "docs": "Let's start by looking at the data alone. Look carefully: do you notice any specific features? Without additional information, it can be challenging to tell whether any peaks are due to background processes or signal events.",
-        "caption": "Observed data alone"
+        "title": "Passo 1: Osservare i dati",
+        "docs": "Iniziamo osservando soltanto i dati. Guarda con attenzione: noti qualche caratteristica specifica? Senza informazioni aggiuntive, può essere difficile capire se eventuali picchi siano dovuti a processi di fondo o a eventi di segnale.",
+        "caption": "Solo dati osservati"
     },
     "data_bkg": {
-        "title": "Step 2: Adding Background Simulation",
-        "docs": "Now, we add a simulation of the background processes (without any signal). This shows us what we’d expect to see from other particles and interactions in the absence of the Higgs boson, like the Z peak at 91 GeV that we obtained previously. Look closely: do any peaks in the data appear in addition to the background?",
-        "caption": "Data with background simulation"
+        "title": "Passo 2: Aggiungere la simulazione del fondo",
+        "docs": "Ora aggiungiamo una simulazione dei processi di fondo (senza alcun segnale). Questo ci mostra cosa ci aspetteremmo di vedere da altre particelle e interazioni in assenza del bosone di Higgs, come il picco dello Z a 91 GeV che abbiamo ottenuto in precedenza. Guarda bene: nei dati compaiono picchi aggiuntivi oltre al fondo?",
+        "caption": "Dati con simulazione del fondo"
     },
     "data_bkg_sig": {
-        "title": "Step 3: Adding the Simulated Higgs Signal",
-        "docs": "Finally, we add the simulation of the Higgs signal to see how well it matches with the data. If the data aligns with the background plus the Higgs signal simulation, we have strong evidence of the Higgs boson. Can you spot a clear peak where we expect the Higgs?",
-        "caption": "Data with background and simulated Higgs signal"
+        "title": "Passo 3: Aggiungere il segnale simulato dell’Higgs",
+        "docs": "Infine, aggiungiamo la simulazione del segnale dell’Higgs per vedere quanto bene corrisponde ai dati. Se i dati sono in accordo con il fondo più la simulazione del segnale dell’Higgs, abbiamo una forte evidenza del bosone di Higgs. Riesci a individuare un picco chiaro dove ci aspettiamo l’Higgs?",
+        "caption": "Dati con fondo e segnale simulato dell’Higgs"
     }
 }

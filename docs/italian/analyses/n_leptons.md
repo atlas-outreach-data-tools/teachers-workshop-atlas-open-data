@@ -1,28 +1,28 @@
-## Number of Leptons in the Final State
-When particles are produced in a particle collider, they often decay immediately into other particles. These decay products are what we detect and analyze. By studying the particles in the final state (those visible after all decays), we can infer which particles were originally created in the collision.
+## Numero di leptoni nello stato finale
+Quando le particelle vengono prodotte in un collisionatore di particelle, spesso decadono immediatamente in altre particelle. Questi prodotti di decadimento sono ciò che rileviamo e analizziamo. Studiando le particelle nello stato finale (quelle visibili dopo tutti i decadimenti), possiamo dedurre quali particelle sono state originariamente create nella collisione.
 
-To understand this better, let’s take a look at [Feynman diagrams](https://cds.cern.ch/record/2759490/files/Feynman%20Diagrams%20-%20ATLAS%20Cheat%20Sheet.pdf). These diagrams help visualize particle interactions. In the examples below, we are reading the diagrams **from left to right**: the particles on the left are produced in the collision, and the particles on the right are the final decay products that we detect.
+Per capirlo meglio, diamo un’occhiata ai [diagrammi di Feynman](https://cds.cern.ch/record/2759490/files/Feynman%20Diagrams%20-%20ATLAS%20Cheat%20Sheet.pdf). Questi diagrammi aiutano a visualizzare le interazioni tra particelle. Negli esempi qui sotto, leggiamo i diagrammi **da sinistra a destra**: le particelle a sinistra vengono prodotte nella collisione, e le particelle a destra sono i prodotti finali del decadimento che rileviamo.
 
-Here is a diagram showing a Z boson decaying into two leptons (either electrons or muons):
+Ecco un diagramma che mostra un bosone Z che decade in due leptoni (elettroni o muoni):
 
-![Z boson decay into two leptons](images/Z_decay_{theme}.png)
+![Decadimento del bosone Z in due leptoni](images/Z_decay_{theme}.png)
 
-In the previous diagram, the wiggly line on the left represents the Z boson, produced in the collision. As we move to the right, the Z boson reaches a vertex, where it decays into two leptons. These leptons are shown as straight lines, labeled ℓ, which could be either electrons or muons. The arrows on the lines indicate whether each lepton is a particle or an antiparticle: arrows pointing to the right show particles, while arrows pointing to the left show antiparticles. This diagram illustrates how a Z boson decays into a pair of leptons with opposite charges, which we detect in our experiment .
+Nel diagramma precedente, la linea ondulata a sinistra rappresenta il bosone Z, prodotto nella collisione. Man mano che ci spostiamo verso destra, il bosone Z raggiunge un vertice, dove decade in due leptoni. Questi leptoni sono mostrati come linee rette, etichettate con ℓ, che possono essere elettroni o muoni. Le frecce sulle linee indicano se ciascun leptone è una particella o un’antiparticella: le frecce che puntano verso destra indicano particelle, mentre quelle che puntano verso sinistra indicano antiparticelle. Questo diagramma illustra come un bosone Z decada in una coppia di leptoni con cariche opposte, che rileviamo nel nostro esperimento.
 
-More complex processes, such as Higgs boson decays, can result in more leptons in the final state. For example, here is a Higgs boson decaying into two Z bosons, each of which decays further into two leptons:
+Processi più complessi, come i decadimenti del bosone di Higgs, possono produrre più leptoni nello stato finale. Per esempio, ecco un bosone di Higgs che decade in due bosoni Z, ciascuno dei quali decade ulteriormente in due leptoni:
 
-![Higgs boson decay into Z bosons and leptons](images/higgs4l_decay_{theme}.png)
+![Decadimento del bosone di Higgs in bosoni Z e leptoni](images/higgs4l_decay_{theme}.png)
 
-A dashed line on the left represents the Higgs boson (H). The Higgs boson decays at a vertex into two Z bosons, shown as wiggly lines labeled Z. Each Z boson then decays further into two leptons, just like in the first diagram. Again, the straight lines with arrows represent the leptons, with the direction of the arrow indicating whether they are particles or antiparticles. In total, this process results in four leptons, which are the final particles we detect. This diagram demonstrates how a Higgs boson decay can lead to multiple particles through a cascade of interactions.
+Una linea tratteggiata a sinistra rappresenta il bosone di Higgs (H). Il bosone di Higgs decade in un vertice in due bosoni Z, mostrati come linee ondulate etichettate con Z. Ciascun bosone Z poi decade ulteriormente in due leptoni, proprio come nel primo diagramma. Ancora una volta, le linee rette con frecce rappresentano i leptoni, con la direzione della freccia che indica se si tratta di particelle o antiparticelle. In totale, questo processo produce quattro leptoni, che sono le particelle finali che rileviamo. Questo diagramma mostra come il decadimento di un bosone di Higgs possa portare a più particelle attraverso una cascata di interazioni.
 
-In many particle processes, particles are often produced in pairs. For example, the Z boson decays into two leptons—a particle and its antiparticle—because it interacts equally with both matter and antimatter. Similarly, the Higgs boson produces multiple leptons when its decay involves intermediate particles like Z bosons, which themselves decay into lepton pairs.
+In molti processi tra particelle, le particelle vengono spesso prodotte in coppie. Per esempio, il bosone Z decade in due leptoni — una particella e la sua antiparticella — perché interagisce allo stesso modo sia con la materia sia con l’antimateria. Allo stesso modo, il bosone di Higgs produce più leptoni quando il suo decadimento coinvolge particelle intermedie come i bosoni Z, che a loro volta decadono in coppie di leptoni.
 
-The dataset you are analyzing contains events with varying numbers of leptons. Below is a plot showing the distribution of lepton counts in the entire dataset. Events with fewer leptons are more common because simpler processes, like those involving W or Z bosons, occur more frequently than rarer, complex ones like Higgs boson decays.
+Il dataset che stai analizzando contiene eventi con numeri variabili di leptoni. Qui sotto c’è un grafico che mostra la distribuzione del numero di leptoni nell’intero dataset. Gli eventi con meno leptoni sono più comuni perché i processi più semplici, come quelli che coinvolgono bosoni W o Z, avvengono più frequentemente rispetto a quelli più rari e complessi, come i decadimenti del bosone di Higgs.
 
-![Distribution of the number of leptons detected per event in the dataset](images/lepton_plot_{theme}_{lumi}.png)
+![Distribuzione del numero di leptoni rilevati per evento nel dataset](images/lepton_plot_{theme}_{lumi}.png)
 
-Study the Feynman diagrams and the data above. Depending on whether you're focusing on finding the Z boson or the Higgs boson, select the number of leptons you expect to observe in your final state.
+Studia i diagrammi di Feynman e i dati sopra. A seconda che tu voglia trovare il bosone Z o il bosone di Higgs, seleziona il numero di leptoni che ti aspetti di osservare nello stato finale.
 
 > [!CAUTION] 
-When selecting the number of leptons, additional criteria are applied to ensure the quality of the data. Leptons must be well-separated from other particles (**isolated**) and **accurately identified** as electrons or muons. Since particles can sometimes be misidentified, we use identification levels to measure how confident we are in their type. Additionally, only events with signals strong enough to activate the detector's selection system (called triggers), specifically for identifying electrons or muons, are included.
+Quando selezioni il numero di leptoni, vengono applicati criteri aggiuntivi per garantire la qualità dei dati. I leptoni devono essere ben separati dalle altre particelle (**isolati**) e **identificati accuratamente** come elettroni o muoni. Poiché le particelle possono talvolta essere identificate in modo errato, utilizziamo livelli di identificazione per misurare quanto siamo sicuri del loro tipo. Inoltre, vengono inclusi solo gli eventi con segnali sufficientemente forti da attivare il sistema di selezione del rivelatore (chiamato trigger), in particolare per l’identificazione di elettroni o muoni.
 > [!END]
